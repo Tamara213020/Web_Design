@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-image: url(container.jpg);
+    width: 666px;
+    height: 8px;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+#pageHeader h1{
+    text-indent: -9999px;
+    background-image: url(head.jpg);
+    width: 626px;
+    height: 300px;
+    margin-left: 360px;
+}
+#preamble h3{
+    font-size: 22px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 10px;
+    background-image: url(leaf.png);
+    width: 470px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+#explanation h3{
+    font-size: 22px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 10px;
+    background-image: url(leaf.png);
+    width: 470px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+#regulation h3{
+    font-size: 22px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 10px;
+    background-image: url(leaf.png);
+    width: 470px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+.p1, .p2{
+    width: 430px;
+    margin-left: 380px;
+    padding: 5px;
+    text-align: justify;
+}
+#linkList {
+    float: right;
+    margin-right: -340px;
+    margin-top: -630px;
+}
+#lhomes h3{
+    background-image: url(greenhomes.jpg);
+    text-indent: -9999px;
+    width: 125px;
+    height: 60px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+#lhomes ul li {
+    list-style-type: none;
+    margin-left: -1px;
+    padding: 10px;
+    width: 110px;
+    background: green;
+    border: 2px dotted yellowgreen;
+}
+#lhomes ul li a{
+    width : 127px;
+    line-height : 1.8ex;
+    margin-right: -17px;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+
+}
+#lhomes ul li:hover{
+    background: lightblue;
+    border: 2px dotted cornflowerblue;
+}
+#lprojects h3{
+    text-indent: -9999px;
+    background-image: url(latestprojects.jpg);
+    width: 125px;
+    height: 60px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+#lprojects ul li{
+    list-style-type: none;
+    list-style-image: url(circle.png);
+    padding: 5px;
+    width: 127px;
+    margin-left: 20px;
+}
+

@@ -1,0 +1,94 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: #6a97e6;
+}
+*{
+    margin: auto;
+    padding: auto;
+}
+#pageHeader > h1{
+    background: url("head.jpg") no-repeat;
+    height: 300px;
+    width: 623px;
+    font-size: 0;
+    margin: auto;
+}
+#container{
+  background: url("container.jpg") repeat-y;
+    width: 666px;
+    margin: auto;
+}
+#preamble > h3 > span{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    background: url("leaf.png") no-repeat;
+    background-position: right;
+    padding-right: 130px;
+}
+#preamble, #explanation, #regulation{
+    width: 450px;
+    margin-left: 35px;
+    padding-top: 20px;
+
+}
+#explanation > h3 > span{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    background: url("leaf.png") no-repeat;
+    background-position: right;
+    padding-right: 230px;
+}
+#regulation > h3 > span{
+    color: white;
+    font-size: 30px;
+    background: url("leaf.png") no-repeat;
+    background-position: right;
+    padding-right: 115px;
+}
+#lhomes{
+    float: right;
+    width: 200px;
+    margin-top: -960px;
+    margin-right: -15px;
+}
+#lhomes > h3{
+    background: url("greenhomes.jpg") no-repeat;
+    width: 135px;
+    margin-left: 26px;
+    height: 60px;
+    font-size: 0;
+}
+#lhomes > ul li{
+    background: #72d028;
+    list-style-type: none;
+    margin-bottom: 20px;
+    border:1px dotted black;
+    width: 110px;
+    margin-left: -13px;
+    padding: 10px;
+}
+#lhomes > ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+}
+#lprojects{
+    float: right;
+    width: 200px;
+    margin-top: -580px;
+    margin-right: -15px;
+}
+#lprojects > h3{
+    background: url("latestprojects.jpg")no-repeat;
+    width: 135px;
+    margin-left: 26px;
+    height: 60px;
+    font-size: 0;
+}
+#lprojects > ul li{
+    color: white;
+    margin-left: 10px;
+}
