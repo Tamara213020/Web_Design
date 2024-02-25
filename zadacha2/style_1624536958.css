@@ -1,0 +1,362 @@
+/* Your name, surname and index here! */
+
+/* Good Luck :) */
+
+/* Thanks :) */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #856805;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #856805;
+    text-decoration: none;
+}
+
+body {
+    background: url('../images/bg-body.gif') repeat;
+}
+
+#page {
+    background: url('../images/bg-page.gif') no-repeat;
+    width: 960px;
+    height: 1220px;
+    background-size: cover;
+    margin: auto;
+
+}
+
+#header {
+    /*display: inline-block;*/
+    width: 960px;
+}
+
+#navigation {
+    float: right;
+    display: inline-block;
+
+    margin-top: -330px;
+
+    width: 613px;
+    background: url("../images/lion-family.jpg") no-repeat bottom left;
+    height: 397px;
+
+    display: flex;
+    list-style-type: none;
+}
+
+#navigation li {
+    flex: 1;
+    text-align: center;
+}
+
+#navigation a {
+    color: white;
+}
+
+#navigation a:hover {
+    color: sandybrown;
+}
+
+#content {
+    clear: both;
+}
+
+#content a {
+    text-decoration: underline;
+}
+
+#section1 a, #section2 a {
+    text-decoration: none;
+}
+
+#header>ul:not(#navigation) {
+    width: 340px;
+    display: flex;
+
+    list-style-type: none;
+    text-align: left;
+    border: 1px dashed #727272;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0;
+    padding-left: 25px;
+}
+
+#header>ul:not(#navigation)>li {
+    flex: 1;
+    color: #9d3d4e;
+    padding: 0 5px;
+}
+
+#header>ul:not(#navigation)>li:nth-of-type(2) {
+    border: 1px dashed #9d3d4e;
+    border-top: none;
+    border-bottom: none;
+}
+
+#header>ul:not(#navigation)>li a {
+    color: #f3798e;
+}
+
+
+#header>ul:not(#navigation)>li>h2 {
+    margin: 0;
+}
+
+#header>div:not(.jumbotron) {
+    display: inline-block;
+
+    width: 940px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+    background: url("../images/interface.gif") no-repeat 20px 80%;
+    height: 60px;
+
+}
+
+#header>div:not(.jumbotron) h1 {
+    margin-left: 40px;
+    color: #856805;
+}
+
+#header>div:not(.jumbotron) p {
+    margin-left: 40px;
+    color: white;
+}
+
+#header>div:not(.jumbotron) a {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+#header>a:not(#logo) {
+    display: inline-block;
+    width: 340px;
+    text-align: center;
+
+    background: url("../images/interface.gif") no-repeat 20px 100%;
+
+    padding: 15px;
+
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+
+/* content */
+
+#content {
+    clear: both;
+    width: 960px;
+    padding: 0 20px;
+}
+
+#content #featured {
+    background: url("../images/interface.gif") no-repeat;
+
+    height: 180px;
+    width: 960px;
+    margin-left: -13px;
+}
+
+#content h2 {
+    color: #9d3d4e;
+}
+
+#content #featured>h2 {
+    margin-bottom: -10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+#featured>ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: -20px;
+    text-align: center;
+}
+
+#featured>ul>li {
+    flex: 1;
+    padding-top: 100px;
+    margin: 0 10px;
+    width: 50px;
+    height: 98px;
+    background-repeat: no-repeat;
+}
+
+#featured>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+#featured>ul>li:nth-of-type(1) {
+    background-image: url("../images/penguin.jpg");
+}
+
+#featured>ul>li:nth-of-type(2) {
+    background-image: url("../images/elephant.jpg");
+}
+
+#featured>ul>li:nth-of-type(3) {
+    background-image: url("../images/owl.jpg");
+}
+
+#featured>ul>li:nth-of-type(4) {
+    background-image: url("../images/butterfly.jpg");
+}
+
+#featured>ul>li:nth-of-type(5) {
+    background-image: url("../images/turtle.jpg");
+}
+
+#featured>ul>li:nth-of-type(6) {
+    background-image: url("../images/snake.jpg");
+}
+
+#featured>ul>li:nth-of-type(7) {
+    background-image: url("../images/gorilla.jpg");
+}
+
+#featured>ul>li:nth-of-type(8) {
+    background-image: url("../images/button-view-gallery.jpg");
+}
+
+
+
+.section1 {
+    width: 230px;
+    display: inline-block;
+}
+
+.section1 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section1 ul a {
+    color: #9d3d4e;
+}
+
+.section2 {
+    width: 500px;
+    display: inline-block;
+}
+
+.section2>ul {
+    background: url("../images/dolphins.jpg") no-repeat;
+    padding-left: 230px;
+    height: 139px;
+}
+
+.section2>ul>li {
+    margin-bottom: -20px;
+}
+
+.section2 #section1 {
+    width: 300px;
+    display: inline-block;
+}
+
+.section2 #section1 ul {
+    list-style-type: none;
+}
+
+.section2 #section1 ul li {
+    width: 300px;
+}
+
+.section2 #section1 ul li a {
+    width: 130px;
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.section2 #section2 {
+    width: 200px;
+    display: inline-block;
+    float: right;
+}
+
+.section2 #section2 ul {
+    list-style-type: none;
+}
+
+
+.section2 #section2 ul li h4, .section2 #section2 ul li p {
+    margin: 0;
+}
+
+.section3 {
+    width: 150px;
+    display: inline-block;
+}
+
+/*footer*/
+
+#footer {
+    background: url("../images/bg-footer.gif");
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: 247px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#footer>div {
+    width: 960px;
+    margin: auto;
+}
+
+#footer>div>div {
+    margin-top: -15px;
+    background: url("../images/animal-kingdom.jpg") no-repeat;
+    height: 178px;
+    width: 443px;
+    padding-left: 220px;
+    display: inline-block;
+
+    float: left;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+#footer ul:not(.navigation) {
+    width: 300px;
+    float: right;
+    display: inline-block;
+}
+
+#footer .navigation {
+    width: 200px;
+    height: 70px;
+    float: left;
+    /*display: inline-block;*/
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+#footer>div>p {
+    clear: both;
+    text-align: center;
+}
