@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="3_contact.css">
+    <link rel="stylesheet" href="1.css">
+    <title>Contact</title>
+</head>
+<body>
+<div id="header">
+    <div id="header_finki">
+        <a style="color: black">Finki</a><a style="color: #7ddf96">Page</a>
+    </div>
+    <div class="header_nav">
+        <a href="Home.html">HOME</a>
+        <a class="active" href="Contact.html">CONTACT</a>
+        <a href="Info.html">INFO</a>
+    </div>
+</div>
+<div id="body">
+    <div id="upper">
+        <a>Contact Form</a>
+    </div>
+    <div id="lower">
+        <div id="lower_upper">
+            <div id="lower_left">
+                <p class="text">First Name</p>
+                <input class="input" type="text" placeholder="Your name..">
+                <p class="text">Date of birth</p>
+                <input class="input" type="date" name="Date"/>
+                <p class="text">Country</p>
+                <select name="Date" id="date">
+                    <optgroup label="Countries">
+                        <option value="Country" selected>Macedonia</option>
+                        <option value="Country">Afghanistan</option>
+                        <option value="Country">Albania</option>
+                        <option value="Country">Algeria</option>
+                        <option value="Country">Andorra</option>
+                        <option value="Country">Angola</option>
+                    </optgroup>
+                </select>
+                <div>
+                    <a class="text">CV</a><input id="file" type="file">
+                </div>
+            </div>
+            <div id="lower_right">
+                <p class="text">Last Name</p>
+                <input class="input" type="text" placeholder="Your last name..">
+                <p class="text">Subject</p>
+                <input class="input" type="text" id="WriteSomething" placeholder="Write Something..">
+            </div>
+        </div>
+        <div id="lower_lower">
+            <button>Submit</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

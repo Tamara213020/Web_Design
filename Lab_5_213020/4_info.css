@@ -1,0 +1,25 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7ddf96;
+    height: 700px;
+}
+
+#upper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#upper a{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#lower{
+    width: 95%;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+}

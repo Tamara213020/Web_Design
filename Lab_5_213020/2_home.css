@@ -1,0 +1,28 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+td, th{
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 0;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 95%;
+}
+
+a{
+    color: rebeccapurple;
+}
+
+p, th{
+    font-weight: bold;
+}
