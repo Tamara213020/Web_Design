@@ -1,0 +1,272 @@
+/* Hello World :\         */
+
+
+body {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size: 11px;
+    background: rgb(4,76,108);
+}
+
+.container {
+    background: url("img/cover.png") repeat-y;
+    margin: auto;
+    width:770px;
+}
+
+.top {
+    background: url("img/cover_top.png") no-repeat;
+}
+.top h1 {
+    background: url("img/game-of-thrones.jpg") no-repeat;
+    width:268px;
+    height:71px;
+}
+.top h2{
+    background:url("img/ice-and-fire.jpg") no-repeat;
+}
+
+.introduction h3 {
+    background:url("img/introduction.png") no-repeat;
+    width:212px;
+    height:44px;
+    color:rgba(0,0,0,0);
+    display:inline-block;
+    margin-left:150px;
+    margin-top:50px;
+
+}
+header {
+    color:rgba(0,0,0,0);
+    width:30%;
+    height:100px;
+    padding-top:50px;
+    padding-left:70px;
+    display:inline-block;
+}
+
+.summary {
+    float:right;
+    width:50%;
+}
+
+.summary p:first-child {
+    width:55%;
+    display:inline-block;
+    margin-top:50px;
+    margin-left:25px;
+    line-height: 20px;
+}
+.summary p:last-child{
+    background:url("img/bookmark.jpg") no-repeat;
+    width:71px;
+    height:131px;
+    float:right;
+    padding:10px 0 0 8px;
+    font-size:13px;
+    margin-right:60px;
+    margin-top:17px;
+    color:white;
+}
+
+#div-introduction p:first-of-type {
+    display:inline-block;
+    clear:both;
+    float:right;
+    width:45%;
+    height:135px;
+}
+#div-introduction p:last-of-type {
+    margin-top:-50px;
+    display:inline-block;
+    clear:both;
+    float:right;
+    width:45%;
+
+}
+#div-introduction p {
+    font-style: italic;
+    margin-right:22px;
+    line-height: 24px;
+}
+
+.introduction {
+    height:inherit;
+}
+
+.introduction {clear:both;}
+
+/* Овоа е сликата ставена со ::After
+.introduction::after {
+    content:'';
+    clear:both;
+    position:absolute;
+    top:275px;
+    left:410px;
+    background:url("img/img_1.jpg") no-repeat;
+    width:336px;
+    height:180px;
+}
+*/
+#div-main {
+    clear:left;
+}
+
+.about h3 {
+    color: rgba(0, 0, 0, 0);
+    background: url("img/img_1.jpg") no-repeat;
+    width: 336px;
+    height: 191px;
+    display: inline-block;
+    margin-left: 30px;
+    clear:both;
+}
+.about p {
+    width: 330px;
+    padding-left:30px;
+    font-style: italic;
+    text-align: right;
+    line-height: 20px;
+    /*display:inline-block;*/
+
+}
+.about {
+    display:inline-block;
+    height:500px;
+}
+
+.people h3 {
+    color: rgba(0, 0, 0, 0);
+    background:url("img/people.png") no-repeat;
+    width:157px;
+    height:45px;
+    margin-left:200px;
+    display:inline-block;
+}
+
+.people p{
+    width:336px;
+    float:right;
+    clear:both;
+    margin-right:30px;
+    font-style: italic;
+    line-height: 20px;
+
+}
+
+.people p:first-of-type{
+    background: url("img/img_2.jpg") no-repeat;
+    height:191px;
+    padding-top: 220px;
+    margin-bottom: 0;
+    margin-top: -370px;
+
+}
+
+.people p:last-of-type{
+    margin-top:-140px;
+}
+.people2 {
+    clear:both;
+    height:200px;
+    background:url("img/img_3.jpg") no-repeat;
+    margin-left:30px;
+    /*display:inline-block;*/
+}
+.people2 p {
+
+    display:inline-block;
+    width:336px;
+    float:right;
+    clear:both;
+    margin-right:30px;
+    font-style: italic;
+    line-height: 20px;
+}
+.people2 p:last-of-type {
+    margin-top:-10px;
+}
+
+footer {
+    clear:both;
+    float:right;
+    padding-right:135px;
+    padding-top:270px;
+
+}
+
+footer a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.most-visited h3 {
+    color: rgba(0, 0, 0, 0);
+    background:url("img/most-visited.png") no-repeat;
+    width:145px;
+    height:33px;
+    margin-left:80px;
+    display:inline-block;
+}
+
+.navigation {
+    margin-left:80px;
+    margin-top:-25px;
+}
+.navigation li a {
+    text-decoration: none;
+
+}
+.navigation li{
+    list-style-image: url("img/bull.png");
+}
+
+.backstage-links h3 {
+    color: rgba(0, 0, 0, 0);
+    background:url("img/backstage.png") no-repeat;
+    width:85px;
+    height:22px;
+    margin-left:80px;
+    display:inline-block;
+}
+.backstage-links {
+
+    background: url("img/notes.jpg") no-repeat;
+    width:252px;
+    height:249px;
+    margin-left:80px;
+}
+
+aside::after {
+    content:'';
+    background: url("img/cover_bot.png") no-repeat;
+    width:770px;
+    height:130px;
+    position:absolute;
+    top:1450px;
+    z-index: -3;
+}
+
+.backstage-links li a{
+    text-decoration: none;
+    color: #0f1377;
+}
+.backstage-links li {
+    list-style: none;
+    padding-top:5px;
+
+}
+.summary a{
+    color:white;
+    font-weight: bold;
+
+}
+
+.navigation li a:hover {
+    color:red;
+}
+
+.backstage-links li a:hover {
+    color:red;
+    text-decoration: underline;
+}

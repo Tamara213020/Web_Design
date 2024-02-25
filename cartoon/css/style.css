@@ -1,0 +1,346 @@
+/* Индекс, име и презиме */
+/* ID_NO, Name and Surname */
+
+
+/* Loading fonts */
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/opensans-regular-webfont.eot');
+	src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-regular-webfont.woff') format('woff'),
+	url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gorditasregular';
+	src: url('../fonts/gorditas-regular-webfont.eot');
+	src: url('../fonts/gorditas-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/gorditas-regular-webfont.woff') format('woff'),
+	url('../fonts/gorditas-regular-webfont.ttf') format('truetype'),
+	url('../fonts/gorditas-regular-webfont.svg#gorditasregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sans_semiboldregular';
+	src: url('../fonts/opensans-semibold-webfont.eot');
+	src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+	url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-semibold-webfont.svg#open_sans_semiboldregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sans_semibolditalic';
+	src: url('../fonts/opensans-semibolditalic-webfont.eot');
+	src: url('../fonts/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-semibolditalic-webfont.woff') format('woff'),
+	url('../fonts/opensans-semibolditalic-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-semibolditalic-webfont.svg#open_sans_semibolditalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Your code goes here */
+
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+body {
+	/*width:60%;*/
+	background: url("../images/bg-body.jpg");
+	/*margin: 0 auto;*/
+}
+
+#header {
+	/*width:80%;*/
+	margin:auto;
+	background: #efe8ca;
+	padding-top:30px;
+	margin-top:5px;
+	height:650px;
+}
+#header>div {
+	width:70%;
+	margin:auto;
+}
+
+#logo {
+	float:right;
+	margin-top:-514px;
+	margin-right:60px;
+}
+
+#header p {
+	text-align:center;
+	width:25%;
+	clear:both;
+	float:right;
+	margin-top:-290px;
+	margin-right:70px;
+}
+
+#clickhere {
+	background: url("../images/interface.png") no-repeat 55px 61%;
+	width: 330px;
+	/*height: 0px;*/
+	padding:18px 70px;
+	clear:both;
+	float:right;
+	margin-top:-160px;
+	margin-right:20px;
+	text-decoration: none;
+	color:white;
+	font-size:1.9em;
+	font-family: gorditasregular, serif;
+}
+
+#clickhere2 {
+	background: url("../images/interface.png") no-repeat 8px 45%;
+	padding:14px 70px;
+	clear:both;
+	float:right;
+	color:white;
+	text-decoration: none;
+	margin-top:-65px;
+	margin-right:75px;
+
+}
+
+#clickhere2 span {
+	font-size: 0.6em;
+	display:block;
+	width:50px;
+}
+
+.play {
+	clear:both;
+	float: right;
+	background: url("../images/interface.png") no-repeat 65px 0;
+	color:transparent;
+	padding:28px;
+	margin-right:685px;
+	margin-top:-320px;
+	z-index: 20;
+}
+
+#header img {
+	float:left;
+}
+
+#header ul {
+	display: flex;
+	clear:both;
+	width:50%;
+	float: right;
+	margin-top:50px;
+	z-index:2;
+	position:relative;
+	margin-right:400px;
+
+
+}
+#header ul li {
+	list-style: none;
+	flex:1;
+	text-align:center;
+	height:40px;
+}
+#header ul li a {
+	text-decoration: none;
+	color:cornflowerblue;
+	font-size: 1.1em;
+	font-family: gorditasregular, serif;
+}
+
+#home {
+	width:60%;
+	margin:0 auto;
+	float:left;
+	margin-left:280px;
+	margin-top:-70px;
+	background: white;
+	height:900px;
+	z-index: 1;
+}
+.aside p{
+	width:67%;
+	padding-left:50px;
+}
+.aside {
+	margin-top:110px;
+}
+
+.aside h1 {
+	font-family: gorditasregular;
+	color:indianred;
+	padding:0px 40px
+}
+
+.current {
+	background: url("../images/interface.png") no-repeat 3px 19%;
+
+}
+
+.readmore {
+	color:orange;
+	font-family: gorditasregular;
+	font-size:1.3em;
+	float:left;
+	margin:50px 0 50px 50px;
+
+}
+.sidebar {clear:both;}
+
+.sidebar div {
+	float:right;
+	width:22%;
+	margin-top:-500px;
+}
+
+.section ul li {
+	list-style: none;
+}
+.sidebar div h2 {
+	background: url("../images/interface.png") no-repeat -27px 89%;
+	font-family: gorditasregular;
+	color:black;
+	padding-left: 28px;
+
+}
+.sidebar div {
+	height:100px;
+	margin-right:20px;
+}
+
+.sidebar div {
+	background:lightblue;
+}
+
+.sidebar div a {
+	background: url("../images/icons.png") no-repeat;
+	display: inline-block;
+	color: transparent;
+	width:200px;
+	height:200px;
+}
+#iphone {
+	clear:both;
+	float:right;
+	margin-top:-370px;
+	margin-right:25px;
+}
+.section {
+	clear:both;
+	float:left;
+	margin-left:300px;
+	margin-top:-245px;
+	height:210px;
+}
+
+.section ul {
+	display:flex;
+	clear: both;
+	float:left;
+
+
+}
+
+.section h2 {
+	margin-bottom:30px;
+	padding-left:20px;
+	background: url("../images/interface.png") no-repeat -2px 98%;
+}
+
+.section ul a {
+	margin-right:20px;
+}
+.section ul a img{
+border:2px black solid;
+}
+
+.section ul img:hover{
+	border:5px cornflowerblue solid;
+}
+
+.section {
+	background: lightblue;
+	width:57%;
+}
+
+.next {
+	clear:both;
+	float:right;
+	height:70px;
+	width:150px;
+	background-color: #8bb5ec;
+	text-align:center;
+	margin-top:-100px;
+	margin-right:30px;
+	padding-top:22px;
+	text-decoration: none;
+	color:white;
+	font-family: gorditasregular, serif;
+	font-size:1.2em
+}
+
+.prev {
+	clear:both;
+	float:right;
+	text-decoration: none;
+	margin-right:150px;
+	margin-bottom:-20px;
+	border-right:1px dodgerblue solid;
+	padding-right:8px;
+	font-style: italic;
+}
+
+.paging div ul {
+	clear:both;
+	float:right;
+	font-style: italic;
+	font-weight: bold;
+}
+.paging div ul a{
+text-decoration: none;
+
+}
+#footer {
+	clear:both;
+	float:left;
+	text-align:center;
+	margin:10px 0 10px 280px;
+	height:50px;
+	width:60%;
+	background: #040457;
+}
+#footer ul {
+	display:inline-flex;
+	width:50%;
+	padding-top:15px;
+	padding-right:150px;
+	margin-left:-90px;
+}
+#footer ul li{
+	flex:1;
+	list-style: none;
+	border-right:1px lightsteelblue solid;
+}
+#footer ul li:last-of-type{
+	border-right:none;
+}
+#footer ul li a {
+	text-decoration: none;
+}
+#footer p {
+	padding-top: 15px;
+	width: 40%;
+	float: right;
+	color:blue;
+}
