@@ -1,0 +1,209 @@
+html {
+background : #89b6f9;
+}
+body {
+font : 10px Verdana, Arial, Helvetica, sans-serif;
+color : #172104;
+background : none repeat-y #89b6f9;
+margin : 0;
+position : relative;
+width : 650px;
+top : 0;
+left : auto;
+right : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#container p {
+margin-top : 0;
+text-align : justify;
+padding-right : 5px;
+text-indent : 10px;
+background : none bottom no-repeat;
+}
+
+#container h3 {
+font : 600 18pt "trebuchet ms";
+color : #ffffff;
+background : url(leaf.png) top right no-repeat transparent;
+text-decoration : none;
+text-align : left;
+margin : 0;
+padding-bottom : 0;
+padding-top : 0;
+letter-spacing : 0.5px;
+height : 40px;
+text-indent : 5px;
+}
+
+a:link {
+font-weight : bold;
+text-decoration : none;
+color : yellow;
+}
+
+a:visited {
+font-weight : bold;
+text-decoration : none;
+color : #2262a4;
+}
+
+a:hover, a:active {
+text-decoration : none;
+color : #ffffff;
+background : #668fd1;
+}
+
+#container {
+background : url(container.jpg) top left repeat-y;
+padding : 0 0 0 0;
+position : absolute;
+right : auto;
+left : auto;
+width : 680px;
+}
+
+#intro {
+min-width : 470px;
+position : relative;
+}
+
+#pageHeader {
+margin-bottom : 20px;
+background : url(head.jpg) 21px no-repeat;
+height : 300px;
+}
+
+#pageHeader h1 {
+background : none top left no-repeat transparent;
+margin-top : 10px;
+width : 219px;
+height : 87px;
+float : left;
+}
+
+#pageHeader h1 span {
+display : none;
+background : none;
+}
+
+#supportingText, #preamble {
+background : none no-repeat;
+margin-bottom : 20px;
+}
+
+
+#preamble {
+clear : right;
+padding : 0 190px 0 30px;
+}
+
+#supportingText {
+padding-left : 30px;
+margin-bottom : 40px;
+padding-right : 190px;
+}
+
+#linkList {
+position : absolute;
+left : 508px;
+padding-bottom : 10px;
+width : 0;
+margin-top : 251px;
+top : 0;
+}
+
+#linkList h3.homes {
+width : 230px;
+background : url(greenhomes.jpg) -4px 41px no-repeat transparent;
+text-align : center;
+border-bottom-style : none;
+margin-top : 10px;
+margin-right : 0;
+margin-left : 0;
+height : 100px;
+}
+#linkList h3.homes span {
+display : none;
+}
+
+#linkList h3.projects {
+background : url(latestprojects.jpg) -3px -11px no-repeat transparent;
+height : 50px;
+width : 230px;
+margin : 10px 0 -8px 0;
+}
+#linkList h3.projects span {
+display : none;
+background : none;
+visibility : hidden;
+}
+
+#linkList ul {
+margin : 0;
+padding : 0;
+}
+
+#linkList li {
+background :#66cb25;
+display : block;
+border-bottom : 2px dotted #4f740e;
+padding : 10px 0 8px 5px;
+width : 128px;
+line-height : 1.8ex;
+border-top : 2px dotted #4f740e;
+margin-top : 0;
+margin-bottom : 8px;
+color : #172104;
+text-align : left;
+}
+
+#linkList li:hover {
+background : #89B6F9;
+display : block;
+border-bottom : 2px dotted #5475ab;
+padding : 10px 0 8px 5px;
+width : 128px;
+line-height : 1.8ex;
+border-top : 2px dotted #5475ab;
+margin-top : 0;
+margin-bottom : 8px;
+color : #345082;
+}
+
+#linkList #lprojects li {
+margin-left: 25px;
+display : list-item;
+background: transparent;
+list-style-image:url('circle.png');
+border-bottom : none;
+border-top : none;
+padding : 10px 0 8px 5px;
+width : 128px;
+margin-top : 0;
+margin-bottom : 8px;
+text-align : left;
+color : white;
+text-decoration : none;
+font-weight: bold;
+}
+
+#linkList #lprojects li a:link {
+
+}
+
+#linkList li a:link {
+color : #386900;
+text-decoration : none;
+}
+//smeneto
+#linkList li a:link:hover {
+color : #386900;
+text-decoration : none;
+}
+
+#linkList li a:visited {
+color : #2262a4;
+text-decoration : none;
+}
+

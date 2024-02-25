@@ -1,0 +1,97 @@
+body {
+    background: url("main_bg_.gif");
+    margin: auto;
+}
+#container{
+    background: url("containe.jpg") ;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+    font-size: 11px;
+    color: rgb(140,44,44);
+    margin-bottom: 10px;
+}
+#container:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+#pageHeader > h1{
+    font-size: 0;
+    background:url("raspi_blue_white.png") no-repeat;
+    height: 171px;
+    width: 220px;
+    margin-left: 70px;
+
+}
+#pageHeader > h2 {
+    font-size: 0;
+    background: url("Raspi_Colour_R.png") no-repeat;
+    height: 182px;
+    width: 150px;
+    float: right;
+    margin-top: -170px;
+    margin-right: 150px;
+}
+#quickSummary > h2 > span{
+    background: url("header.png") no-repeat;
+    height: 30px;
+    width: 400px;
+    float:right;
+    font-size: 0;
+}
+#quickSummary, #preamble, #explanation{
+    width: 400px;
+    float:right;
+}
+#preamble > h3 > span{
+    background: url("header2.png") no-repeat;
+    height: 30px;
+    width: 400px;
+    float: right;
+    font-size: 0;
+}
+#explanation > h3 {
+    background: url("header3.png") no-repeat;
+    height: 30px;
+    width: 400px;
+    font-size: 0;
+}
+#quickSummary{
+    float: right;
+    width: 400px;
+    margin-left: 600px;
+}
+#footer{
+    float: right;
+    width: 400px;
+    text-align: center;
+
+}
+#footer a{
+    color: red;
+}
+#lselect > h3 {
+    background: url("links.jpg");
+    font-size: 0;
+    width: 277px;
+    height: 35px;
+    display: block;
+}
+#lselect > ul li a{
+    color: red;
+    background: #eac0c1;
+    border: 1px solid #eac0c1;
+    display: block;
+    width: 250px;
+}
+#lselect > ul li{
+    margin-top: 20px;
+    list-style-type: none;
+    display: block;
+    width: 250px;
+}
+#lselect > ul > li:nth-child(1) > a{
+    margin-top: -100px;
+}
